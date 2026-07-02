@@ -47,8 +47,8 @@ def main():
     app.setApplicationVersion("1.0.3")
     app.setOrganizationName("Power Electronics Lab")
 
-    # 远程更新检查地址 (部署时修改为实际服务器地址)
-    UPDATE_URL = "https://myserver.com/version.json"
+    # 远程更新检查地址
+    UPDATE_URL = "https://github.com/Franhihy/PCS_Caculating_PlatForm/releases/download/v1.0.3/version.json"
     app.setStyle("Fusion")
     app.setFont(QFont("Microsoft YaHei", 10))
     app.setStyleSheet("""
