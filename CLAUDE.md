@@ -11,7 +11,7 @@ Three self-contained calculation modules, each with its own page + calculator + 
 Pages inherit from `BasePage` for shared UI infrastructure (splitter, tabs, steps, table, PDF export).
 Generates PDF engineering calculation reports with embedded plots (Bode, bar, pie, sweep).
 
-- **Version:** 1.0.4
+- **Version:** 1.0.5
 - **Target:** Windows standalone EXE (PyInstaller)
 - **Language:** Python 3.12, all UI labels and PDF in Chinese
 

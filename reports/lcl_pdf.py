@@ -8,7 +8,7 @@ class PDFGenerator(BaseReportGenerator):
     """LCL filter design PDF report"""
 
     def __init__(self):
-        super().__init__(title="LCL滤波器设计计算书", author="PCS Platform v1.0.4")
+        super().__init__(title="LCL滤波器设计计算书", author="PCS Platform v1.0.5")
 
     def generate(self, filepath, params, results, bode_image=None):
         story = []

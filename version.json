@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "url": "https://github.com/Franhihy/PCS_Caculating_PlatForm/releases/download/v1.0.4/PCS_Tool.exe",
-  "changelog": "版本号更新至1.0.4; 自动更新检查功能; UPDATE_URL指向GitHub Releases",
+  "version": "1.0.5",
+  "url": "https://github.com/Franhihy/PCS_Caculating_PlatForm/releases/download/v1.0.5/PCS_Tool.exe",
+  "changelog": "version 1.0.5; auto-update release workflow",
   "force_update": false
 }

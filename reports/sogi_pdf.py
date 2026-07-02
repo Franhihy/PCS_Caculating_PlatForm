@@ -9,7 +9,7 @@ class SOGIPDFGenerator(BaseReportGenerator):
     """SOGI parameter calculation PDF report"""
 
     def __init__(self):
-        super().__init__(title="SOGI参数计算书", author="PCS计算平台 v1.0.4")
+        super().__init__(title="SOGI参数计算书", author="PCS计算平台 v1.0.5")
 
     def generate(self, filepath, params, results, bode_image=None):
         story = []
