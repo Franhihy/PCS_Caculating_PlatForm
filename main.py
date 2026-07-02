@@ -44,11 +44,11 @@ def main():
     # ========================================================================
     app = QApplication(sys.argv)
     app.setApplicationName("PCS计算平台")
-    app.setApplicationVersion("1.0.3")
+    app.setApplicationVersion("1.0.4")
     app.setOrganizationName("Power Electronics Lab")
 
     # 远程更新检查地址
-    UPDATE_URL = "https://github.com/Franhihy/PCS_Caculating_PlatForm/releases/download/v1.0.3/version.json"
+    UPDATE_URL = "https://github.com/Franhihy/PCS_Caculating_PlatForm/releases/download/v1.0.4/version.json"
     app.setStyle("Fusion")
     app.setFont(QFont("Microsoft YaHei", 10))
     app.setStyleSheet("""
@@ -79,7 +79,7 @@ def main():
 
         def __init__(self):
             super().__init__()
-            self.setWindowTitle("PCS计算平台 v1.0.3 - PCS Computing Platform")
+            self.setWindowTitle("PCS计算平台 v1.0.4 - PCS Computing Platform")
             self.resize(1280, 900); self.setMinimumSize(1024, 680)
             self._center()
             self._setup_menu()
@@ -159,11 +159,11 @@ def main():
 
         def _show_about(self):
             QMessageBox.about(self, "关于 PCS计算平台", """
-            <h2>PCS计算平台 v1.0.3</h2>
+            <h2>PCS计算平台 v1.0.4</h2>
             <p><b>PCS Computing Platform</b></p>
             <p>电力电子变换器设计计算平台</p>
             <hr><p><b>版本更新记录:</b></p>
-            <p><b>v1.0.3</b> (2026-06-10)</p>
+            <p><b>v1.0.4</b> (2026-06-10)</p>
             <ul>
                 <li>新增Boost DC/DC损耗分析模块 (MOSFET/IGBT)</li>
                 <li>损耗柱状图/饼图/温度扫描/电流扫描 4种图表</li>

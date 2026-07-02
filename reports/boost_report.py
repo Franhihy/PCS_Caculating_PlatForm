@@ -9,7 +9,7 @@ class BoostReportGenerator(BaseReportGenerator):
     """Boost loss analysis PDF report"""
 
     def __init__(self):
-        super().__init__(title="Boost损耗分析计算书", author="PCS计算平台 v1.0.3")
+        super().__init__(title="Boost损耗分析计算书", author="PCS计算平台 v1.0.4")
 
     def generate(self, filepath, params, results, sweep_data, chart_images):
         story = []

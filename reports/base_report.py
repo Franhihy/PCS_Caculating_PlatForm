@@ -35,7 +35,7 @@ class BaseReportGenerator:
     C_BG_LIGHT = HexColor("#f5f8fc")
     C_BG_GREY = HexColor("#f5f5f5")
 
-    def __init__(self, title: str = "计算书", author: str = "PCS计算平台 v1.0.3"):
+    def __init__(self, title: str = "计算书", author: str = "PCS计算平台 v1.0.4"):
         self._pdf_title = title
         self._pdf_author = author
         self._register_fonts()
@@ -195,7 +195,7 @@ class BaseReportGenerator:
         story.append(HRFlowable(width="100%", thickness=0.5, color=lightgrey))
         story.append(Paragraph("--- 计算书结束 ---", self.s['footer']))
         story.append(Paragraph(
-            f"本计算书由 PCS计算平台 v1.0.3 自动生成于 "
+            f"本计算书由 PCS计算平台 v1.0.4 自动生成于 "
             f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
             self.s['footer']))
 
