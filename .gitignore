@@ -1,0 +1,34 @@
+# Build outputs
+build/
+dist/
+*.spec
+!PCS_Platform.spec
+
+# Release outputs
+release/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# PyInstaller
+*.pkg
+*.pyz
+*.pyzw
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temp
+*.log
+*.tmp
